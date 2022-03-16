@@ -2,7 +2,8 @@
  *main - sum even fibonacci numbers under 4 million. 
  *Return: nothing.                                  
  */
-int main(void)                                           
+int main(void)
+{                                           
 unsigned long count, i, j, k, sums;             
 i = sums = 0;
 j = 1;                                          
