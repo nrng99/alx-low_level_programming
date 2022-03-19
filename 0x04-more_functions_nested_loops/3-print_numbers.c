@@ -5,12 +5,11 @@
  */
 void print_numbers(void)
 {
-int i;
-i=0;
-while(i < 10)
+int number;
+for (number = '0'; number <= '9'; number++)
 {
-_putchar (i + '0')
-i++;
+_putchar(number);
 }
-_putchar ('\n');
+_putchar('\n');
+
 }
